@@ -1,0 +1,48 @@
+
+
+.review__text{
+    line-height: 30px;
+    margin: 40px 0px;
+    color: #777;
+}
+
+.slider__content {
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.ava01{
+    margin-top: 30px;
+}
+
+.ava02{
+    margin-top: 30px;
+}
+
+.ava03{
+    margin-top: 30px;
+}
+
+@media only screen and (max-width:768px) {
+    .review__test{
+        font-size: 0.8rem;
+        margin: 20px 0px;
+    }
+
+    .slider__content  img{
+        width: 35px;
+        height: 90px;
+    }
+
+    .slider__content h6{
+        font-size: 1rem;
+    }
+
+    .slider__content{
+        margin-top: 20px;
+    }
+
+    
+}
+
+

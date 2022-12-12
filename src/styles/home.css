@@ -1,0 +1,194 @@
+.feature__subtitle{
+    color:  orange;
+    font-size: 1.3rem;
+}
+
+.feature__title span{
+    color: orange;
+}
+
+.feature__title{
+    font-weight: bold;
+}
+
+.feature__text{
+    color: #777;
+}
+.feature__item p{
+    color: #777;
+}
+
+.food__category{
+    background:orange;
+    text-align: center;
+    padding: 20px 0px;
+    border-radius: 5px;
+    margin-top: 30px;
+    font-size: 1.2rem;
+}
+
+.food__category button{
+    padding: 7px 20px;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #fff;
+}
+
+.food__category button img{
+    width: 70px;
+    height: 50px;
+}
+
+
+.foodBtnActive{
+    background: #fff !important;
+    border-radius: 5px;
+    color:  orange !important;
+}
+
+.ellies-title span{
+    color: orange;
+} 
+
+.ellies-desc{
+    color: #777;
+    line-height: 28px;
+}
+
+.choose__us-title {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.choose__us-title i{
+    font-weight: 500 !important;
+    color: orange;
+}
+
+.choose__us-desc{
+    color: #777;
+}
+
+.testimonial__subtitle{
+    color: orange;
+    font-weight: 600;
+    margin-top: 50px;
+}
+
+.testimonial__title span{
+    color: orange;
+}
+
+.testimonial__desc{
+    color: #777;
+    line-height: 30px;
+}
+
+.hero__img{
+    width: 120%;
+    height: 70%;
+}
+@media only screen and (max-width:768px) {
+    .hero__content h5{
+        font-size: 1rem;
+    }
+
+    .hero__content p{
+        font-size: 0.8rem;
+        line-height: 25px;
+    }
+
+    .hero__title{
+        font-size: 2.5rem;
+    }
+
+    .hero__btns button{
+        padding: 5px 15px;
+        font-size: 0.8rem;
+    }
+
+
+    .hero__service p{
+        font-size: 0.7rem;
+    }
+
+    .feature__item h5{
+        font-size: 0.9rem;
+    }
+
+    .feature__item p{
+        font-size: 0.8rem;
+        margin-bottom: 0;
+    }
+
+    .feature__subtitle{
+        font-size: 1rem;
+    }
+
+    .feature__text{
+        font-size: 0.8rem;
+        margin-bottom: 0;
+    }
+
+    .food__category button{
+        font-size: 0.7rem;
+        width: 20%;
+        padding: 7px 5px;
+    }
+
+    .food__category{
+        padding:5px 22px; 
+        width: 100%;
+    }
+
+    .food__category button img{
+        width: 30px;
+        height: 10px;
+        font-size: 0.9rem;
+        font-weight: bold;
+    }
+
+    .ellies-desc{
+        font-size: 0.8rem;
+        margin-bottom: 0;
+    }
+
+    .choose__us-title{
+        font-size: 0.8rem;
+        line-height: 25px;
+    }
+
+    .choose__us-desc{
+        font-size: 0.7rem;
+        line-height: 20 px;
+    }
+
+    .testimonial__subtitle{
+        font-size: 1rem;
+    }
+
+    .testimonial__desc{
+       font-size: 0.9rem; 
+    }   
+}
+@media only screen and (max-width:992px) {
+    .hero__content{
+        text-align: center;
+    }
+
+    .hero__btns{
+        justify-content: center;
+    }
+
+    
+    .hero__service{
+        justify-content: center;
+    }
+
+    .why__choose-us{
+        padding: 0 !important;
+    }
+}
+
+

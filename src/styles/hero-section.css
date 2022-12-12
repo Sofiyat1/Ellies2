@@ -1,0 +1,66 @@
+.hero__content{
+    padding-top: 100px;
+}
+
+
+.hero__title{
+    font-size: 2.5rem;
+    line-height: 55px;
+}
+
+.hero__title span{
+    color: orange;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hero__content p{
+    font-size: 1rem;
+    line-height: 30px;
+    color: #777;
+}
+
+.hero__btns{
+    padding-bottom: 30px;
+}
+.hero__btns button{
+    border: none;
+    outline: none;
+    padding: 7px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.hero__service p{
+    font-weight: 600;    
+    font-size: 0.9rem;
+    color: #212245;
+}
+
+.order__btn{
+    background: rgb(4, 172, 4);
+    color: #fff;
+    transition: 0.3s;
+}
+
+.order__btn:hover{
+    background: #212245;
+}
+
+.all__foods-btn{
+    background: transparent;
+    border: 1px solid rgb(4, 172, 4) !important;
+}
+
+.all__foods-btn a{
+    color: rgb(4, 172, 4);
+}
+
+.shipping__icon i{
+    padding: 5px;
+    background: rgb(4, 172, 4);
+    color: #fff;
+    border-radius: 50%;
+    font-weight: 500 !important;
+}
+
